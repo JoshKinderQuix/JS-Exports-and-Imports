@@ -3,8 +3,8 @@
 //
 //
 //
-//!Generally, if exporting more than one function, no DEFAULT is required
-//At the bottom of the doc, we simply export functions as normal
+//! Generally, if exporting more than one function, no DEFAULT is required
+// At the bottom of the doc, we simply export functions as normal
 
 const addFive = (x) => {
     return `Addition: ${x} + 5 = ${x+5}`;
