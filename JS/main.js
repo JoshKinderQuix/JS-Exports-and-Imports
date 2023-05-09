@@ -6,6 +6,8 @@
 
 //****Do this by using the LIVE SERVER extension in VS Code****
 
+
+
 //!--------- Section 1 (uncomment each section for example code) --------------------------
 //** Go to import.js ** 
 
@@ -14,7 +16,10 @@
 import greeting from "./import.js";
 
 //importing the other exported functions
-import { goodbye, loading } from "./import.js";
+import {
+    goodbye,
+    loading
+} from "./import.js";
 
 //* Testing
 //! Uncomment and open a live server > devtools > console to see it work
@@ -25,7 +30,6 @@ import { goodbye, loading } from "./import.js";
 // console.log(loading())
 
 //---------
-//!------------------------------------------------------------------------------
 
 
 
@@ -34,7 +38,10 @@ import { goodbye, loading } from "./import.js";
 // We can use the "as" keyword followed by a desired name to rename our 
 // imported functions. This is called a NAME SPACE
 
-import { goodbye as sayBye, loading as simsQuote } from "./import.js";
+import {
+    goodbye as sayBye,
+    loading as simsQuote
+} from "./import.js";
 
 //* Testing
 //! Uncomment and open a live server > devtools > console to see it work
@@ -62,10 +69,10 @@ import * as simpleMath from "./simpleMath.js"
 //! Uncomment and open a live server > devtools > console to see it work
 //---------
 
-console.log(simpleMath.addFive(2));
-console.log(simpleMath.subtractFive(3));
-console.log(simpleMath.multiplyFive(5));
-console.log(simpleMath.noArgs())
+// console.log(simpleMath.addFive(2));
+// console.log(simpleMath.subtractFive(3));
+// console.log(simpleMath.multiplyFive(5));
+// console.log(simpleMath.noArgs())
 
 //---------
 
