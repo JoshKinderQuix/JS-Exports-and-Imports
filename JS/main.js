@@ -16,10 +16,7 @@
 import greeting from "./import.js";
 
 //importing the other exported functions
-import {
-    goodbye,
-    loading
-} from "./import.js";
+import { goodbye, loading } from "./import.js";
 
 //* Testing
 //! Uncomment and open a live server > devtools > console to see it work
@@ -38,10 +35,7 @@ import {
 // We can use the "as" keyword followed by a desired name to rename our 
 // imported functions. This is called a NAME SPACE
 
-import {
-    goodbye as sayBye,
-    loading as simsQuote
-} from "./import.js";
+import { goodbye as sayBye, loading as simsQuote } from "./import.js";
 
 //* Testing
 //! Uncomment and open a live server > devtools > console to see it work
