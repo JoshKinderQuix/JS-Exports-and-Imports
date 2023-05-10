@@ -66,7 +66,9 @@ import * as simpleMath from "./simpleMath.js"
 // console.log(simpleMath.addFive(2));
 // console.log(simpleMath.subtractFive(3));
 // console.log(simpleMath.multiplyFive(5));
-// console.log(simpleMath.noArgs())
+// console.log(simpleMath.noArgs());
+
+
 
 //---------
 
@@ -81,12 +83,14 @@ import * as simpleMath from "./simpleMath.js"
 
 //* Go to *userClass.js*
 
-//import the User class
+//import the 'User' class (Don't forget, CLASS naming convention is UpperCamelCase)
 import User from "./userClass.js";
 
-//Creating a new User object using our class constructor, 
+//Creating a new 'User' object using our class constructor, 
 //just like with object constructors
 const josh = new User("joshua.kinder@quotumtech.com", "Josh")
+
+
 
 
 //* Testing

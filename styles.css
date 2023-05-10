@@ -1,0 +1,8 @@
+.hover-red{
+    color: green;
+}
+
+.hover-red:hover{
+    color: red;
+}
+

@@ -31,3 +31,5 @@ export default class User {
         return `Hi, my name is ${this._name}.`
     }
 }
+
+//* Return to main.js
