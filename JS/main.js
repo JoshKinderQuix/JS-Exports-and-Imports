@@ -1,4 +1,4 @@
-// !NOTE: 
+// ! IMPORTANT: 
 // JavaScript modules only work when a web page is delivered to the browser 
 // by a web server. Unlike simple JavaScript which runs when a browser 
 // directly accesses a file (using a file:// URL), you must launch a local web 
@@ -8,7 +8,7 @@
 
 
 
-//!--------- Section 1 (uncomment each section for example code) --------------------------
+//!--------- Section 1 ----------------------------------------------------
 //** Go to import.js ** 
 
 //importing default from *import.js*
